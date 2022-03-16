@@ -1,0 +1,216 @@
+
+
+#wp-login {
+    height: 100vh;
+}
+
+.admin {
+    background-image: url("../images/bg_admin.png");
+    background-repeat: no-repeat;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+/* ==========Header============== */
+
+.wp-header {
+    background: linear-gradient(180deg, #031888 0%, #3A6CFF 100%);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.logo .img-logo{
+    width: 265px;
+}
+
+.title .img-title {
+    width: 440px;
+}
+
+.intro .img-intro {
+    width: 95px;
+}
+
+
+/* ===============Content================== */
+.wp-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.card {
+    width: 50%;
+}
+.content .card-header{
+    text-align: center;
+    background: #0239AB;
+    padding: 15px 0;
+}
+
+.wp-content .title-header {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+}
+.card-body {
+    background-color: #fff;
+    padding: 35px 45px;
+}
+.card-body .email{
+    margin-bottom: 25px;
+}
+
+.card-body .password {
+    margin-bottom: 25px;
+}
+
+.card-body .label-remember {
+    color: #0239AB;
+}
+
+.card-body .link-remember {
+    color: #0239AB;
+    text-decoration: none;
+
+}
+.card-body .button-login {
+    text-align: center;
+}
+.btn-login {
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    background-color: #2A5DFC;
+    border-radius: 10px;
+    border: 1px solid #2A5DFC;
+}
+
+
+
+
+
+/* ================================ */
+/*
+|   Dashboard
+|
+*/
+/* =================Sidebar================= */
+.wp-dashboard {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wp-dashboard .sidebar{
+    width: 25%;
+    background-color: #fff;
+}
+
+.wp-dashboard .content {
+    width: 75%;
+    padding: 15px;
+}
+
+.info-user-admin {
+    padding: 10px 15px;
+    color: #333;
+    border-bottom: 1px solid #333;
+}
+
+.info-user-admin .avt-user {
+    display: flex;
+    align-items: center;
+}
+.info-user-admin .user-name {
+    margin: 0 5px;
+    text-transform: capitalize;
+
+    font-size: 18px;
+}
+.info-user-admin .fa-crown {
+    color: #ffcc00;
+}
+
+.info-user-admin .address {
+    margin: 15px 0;
+}
+
+.wp-dashboard .nav-sidebar {
+    list-style: none;
+    margin: 0 0  260px 0;
+    padding: 0;
+}
+
+.nav-sidebar .item-nav:hover {
+    background: #e9f8fd;
+}
+
+.nav-sidebar .nav-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #7081A6;
+    padding: 15px 20px; 
+}
+.nav-sidebar .item-nav:hover .nav-link{
+    color: #D91B5C;
+}
+.nav-sidebar .nav-link .fas {
+    width: 20%;
+    font-size: 18px;
+}
+.nav-sidebar .active {
+    background-color: #e9f8fd;
+}
+.nav-sidebar .active .nav-link {
+    color: #D91B5C;
+}
+
+/* =================Content============= */
+
+.wp-dashboard .content {
+    padding: 20px;
+}
+.card-dash .custom-card-head{
+    background-color: #305DEA;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    border-radius: 10px 10px 0 0;
+    color: #fff;
+}
+.card-dash .custom-card-body {
+    background-color: #fff;
+}
+
+.card-dash .custom-card-head .active{
+    color: #FFCD3E;
+}
+.select-menu {
+    padding: 20px 50px;
+}
+.select-menu .item-menu {
+    display: flex;
+    align-items: center;
+    margin: 15px auto;
+}
+.select-menu .detail-menu {
+    margin-left: 20px;
+}
+.select-menu .detail-menu .link {
+    color: #0148A4;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    display: block;
+}

@@ -1,0 +1,148 @@
+  @media (max-width: 1200px) {
+      
+  }
+  @media (max-width: 992px) {
+
+    .column-4 {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+    .column-3 {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+    /* ============================= */
+    .top-header .menu-respon {
+      display: block;
+    } 
+    .top-header .nav-bar {
+      display: none;
+    }
+    .design-5 .column-3:last-child{
+      display: none;
+    }
+    /* ============================= */
+    .wp-footer .footer-top{
+      padding: 20px;
+    }
+    .wp-footer .column-4{
+      margin-bottom: 15px;
+    }
+    .wp-footer .address {
+      margin-bottom: 10px;
+    }
+    .wp-footer .box-head .title {
+      font-size: 18px; 
+    }
+    .wp-footer .intro-service {
+      margin-top: 5px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      padding: 0;
+    }
+    .btn {
+      padding: 5px 10px;
+    }
+    .item-box {
+      padding: 30px 15px;
+    }
+    .underlined {
+      margin-top: 15px;
+    }
+    .column-4 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+    .column-2 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+    .column-3 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+    .design-5 .item-rating {
+      margin: 15px auto;
+    }
+    /* =========================== */
+    .top-header .menu-respon {
+      display: block;
+    } 
+    .top-header .nav-bar {
+      display: none;
+    }
+    .wrapper .box-body .item-left {
+      width: 100%;
+    }
+    .design-1 {
+      background-size: contain;
+    }
+    .wrapper .box-body .item-right {
+      width: 100%;
+      
+    }
+    .design-2 .box-body .item-left{
+      padding-right: 0;
+    }
+    .design-2 .item-right{
+      text-align: center;
+    }
+    .design-2 .box-body {
+      flex-direction: column-reverse;
+    }
+    .sale-product .register {
+      font-size: 14px;
+    }
+    .products .item-box .box-head {
+      margin-bottom: 15px;
+    }
+    .item-product {
+      margin: 7.5px auto;
+    }
+    .products .item-box .box-footer {
+      margin-top: 15px;
+    }
+    .design-4 {
+      padding: 0;
+    }
+    
+  }
+ 
+
+ 
+  
+
+
+
+
+
+
+
+
+
+  @media (min-width: 576px) {
+    .container {
+      max-width: 540px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+      max-width: 720px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .container {
+      max-width: 960px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1140px;
+    }
+  }

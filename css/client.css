@@ -44,6 +44,7 @@
 .wp-header {
     background-image: url("../images/bg_header_client.png");
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .top-header {
@@ -100,6 +101,8 @@
 .design-1 {
     background-image: url("../images/bg_client_1.png");
     position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .design-1 .box {
     z-index: 10;
@@ -177,6 +180,8 @@
 .design-3 {
     background-image: url("../images/design_3.png");
     color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .design-3 .text-intro {

@@ -18,6 +18,9 @@
     .top-header .nav-bar {
       display: none;
     }
+    .top-header .icon-header {
+      display: none;
+    }
     .design-5 .column-3:last-child{
       display: none;
     }
@@ -31,12 +34,18 @@
     .wp-footer .address {
       margin-bottom: 10px;
     }
+    .wp-footer .box-head {
+      font-size: 14px;
+    }
     .wp-footer .box-head .title {
-      font-size: 18px; 
+      font-size: 16px; 
     }
     .wp-footer .intro-service {
       margin-top: 5px;
     }
+    .wp-footer .adjust-right{
+      margin-right: unset;
+  }
   }
   
   @media (max-width: 768px) {
@@ -114,6 +123,7 @@
 
  
   
+
 
 
 

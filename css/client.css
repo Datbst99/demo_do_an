@@ -1,4 +1,5 @@
 
+
 .box-footer {
     text-align: center          ;
 }
@@ -34,12 +35,20 @@
 }
 .breadcrumbs .item-breadcrumbs {
     font-size: 18px;
-    color: #000;
+    color: #FFFFFF;
     font-weight: 500;
 }
 .breadcrumbs .active {
-    color: #ffaa00;
+    color: #FFCD3E;
 }
+
+.title {
+    text-transform: capitalize;
+    font-size: 26px;
+    margin: 0;
+    font-weight: 500;
+}
+
 /* ==============header====================== */
 .wp-header {
     background-image: url("../images/bg_header_client.png");
@@ -66,18 +75,24 @@
 
 .bottom-header {
     text-align: center;
-    padding: 100px 20px 30px 20px;
+    padding: 100px 50px 65px 50px;
 }
 
 .box .title-intro{
-    font-weight: 500;
-    font-size: 32px;
+    font-weight: 700;
+    font-size: 40px;
     line-height: 38px;
     text-transform: uppercase;
     color: #fff;
     margin: 0;
 }
-
+.icon-header {
+    color: #fff;
+    font-size: 18px;
+}
+.icon-header .fas{
+    padding: 0 15px;
+}
 .bottom-header .text-intro {
     font-size: 18px;
     color: #fff;
@@ -92,54 +107,97 @@
     color: #fff;
     border: 1px solid #fff;
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 700;
 }
-
-
-
+.bottom-header .contact-us:hover {
+    background-color: #fff;
+    color: #0239AB;
+}
+.hover-service {
+    position: relative;
+}
+.hover-service:hover .sub-item {
+    display: block;
+}
+.sub-item {
+    position: absolute;
+    width: 700px;
+    background-color: #fff;
+    padding: 25px 38px;
+    left: -95%;
+    display: none;
+}
+.sub-item .title-sub-menu{
+    color: #333333;
+    font-weight: 700;
+    text-transform: capitalize;
+    border-bottom: 1px solid #C4C4C4;
+    display: inline-block;
+    font-size: 18px;
+    margin: 0;
+}
+.sub-item .item-sub-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.sub-item .item-sub-menu .sub-nav-link {
+    color: #333333;
+    text-decoration: none;
+    font-size: 14px;
+    padding:7.5px 0;
+    display: block;
+    text-transform: capitalize;
+}
 /* ======================Content=============== */
 .design-1 {
     background-image: url("../images/bg_client_1.png");
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
+    color: #333333;
 }
 .design-1 .box {
-    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+}
+.design-1 .item-left {
+    width: 40%;
+}
+.design-1 .item-right {
+    width: 58%;
+    text-align: left;
+}
+.design-1 .title {
+    font-size: 32px;
+    font-weight: 700;
 }
 
 .item-box {
     padding: 50px 20px;
 }
 
-.item-box .title {
-    text-transform: capitalize;
-    font-size: 26px;
-    margin: 0;
-    font-weight: 500;
-}
+
 .design-1 .box-head .underlined {
     background-color: #000;
 }
 
+.design-1 .box-head {
+   text-align: left;
+}
 .design-1 .box-body {
-    display: flex;
-    justify-content: space-between;
+    margin-top: 30px;
+ }
+.design-1 .box-footer {
+    text-align: left;
+    margin-top: 35px;
 }
 
 .design-1 .img-design-1 {
-    width: 80%;
+    width: 100%;
 }
 
-.design-1 .box-body .item-left {
-    width: 40%;
-    text-align: center;
-}
 
-.design-1 .box-body .item-right {
-    width: 58%;
-    padding-top: 30px;
-} 
 
 .design-1 .show-service {
     color: #fff;
@@ -153,17 +211,26 @@
     color: #fff;
 }
 .design-2 .img-design-2 {
-    width: 80%;
-}
-.design-2 .box-body {
-    display: flex;
-    justify-content: space-between;
+    width: 100%;
 }
 
 .design-2 .item-left {
     width: 58%;
-    padding-top: 30px;
-    padding-right: 30px;
+    text-align: left;
+}
+.design-2 .box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.design-2 .item-left .box-head {
+    text-align: left;
+}
+.design-2 .item-left .box-body {
+    margin: 35px 0;
+}
+.design-2 .item-left .box-footer {
+    text-align: left;
 }
 
 .design-2 .item-right {
@@ -232,6 +299,7 @@
     background-color: #fff;
     border-radius: 10px;
     margin: 15px auto;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .item-product .link-product {
     display: block;
@@ -329,7 +397,10 @@
     background-color: #000;
 }
 .products .item-box .box-head .title {
-    text-transform: capitalize;
+    text-transform: uppercase;
+    color: #333333;
+    font-weight: 700;
+    font-size: 32px;
 }
 
 .design-4 {
@@ -345,9 +416,7 @@
     padding: 50px 20px;
 }
 
-.design-4 .box-body {
-    padding: 20px;
-}
+
 
 .design-4 .box-body .column-2 {
     margin-bottom: 30px;
@@ -357,16 +426,28 @@
 }
 
 .design-4 .sent-contact {
-    color: #fff;
-    background-color: #2A5DFC;
-    border: 1px solid #2A5DFC;
+    color: #0033D1;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
     margin-top: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 .design-5 .underlined{
     background-color: #000;
 }
 .design-5 .box-body {
     margin-top: 30px;
+}
+.design-5 .item-rating {
+    color: #374264;
+}
+.design-5 .title {
+    font-size: 32px;
+    color: #333333;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 .design-5 .item-rating .img-user-rate{
     display: block;
@@ -393,8 +474,15 @@
     margin-top: 20px;
     padding: 20px;
     text-align: center;
+    
 }
 
+.design-6 .title {
+    font-size: 32px;
+    color: #333333;
+    font-weight: 700;
+    text-transform: uppercase;
+}
 
 .design-6 .underlined{
     background-color: #000;
@@ -405,23 +493,24 @@
 .img-post {
     display: block;
     width: 100%;
-    
+    height: 350px;
 }
 
 .item-post .detail-post {
     margin: 0;
-    padding: 10px;
+    padding: 10px 0;
 }
 .item-post .detail-post .title-post {
     margin: 0;
 }
 .item-post .detail-post .desc-post {
-    height: 65px;
+    height: 60px;
     overflow: hidden;
     text-overflow: ellipsis;
     -webkit-line-clamp: 3;
     display: -webkit-box;
     -webkit-box-orient: vertical;
+    color: #6B777B;
 }
 
 
@@ -435,7 +524,12 @@
     text-align: center;
 }
 
-
+.design-7 .title {
+    font-size: 32px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+}
 
 
 /* =============footer============= */
@@ -456,6 +550,7 @@
     text-align: center;
     border-top: 1px solid #fff;
     padding: 20px;
+    line-height: 30px;
 }
 .wp-footer .img-logo-footer {
     display: block;
@@ -465,18 +560,23 @@
 .wp-footer .address {
     margin-bottom: 20px;
 }
+
 .wp-footer .box-head {
     text-align: left;
-    font-size: 18px;
+    font-size: 16px;
 
 }
 .wp-footer .box-head .title {
     margin: 0;
+    font-size: 20px;
+    font-weight: 700;
 }
 .wp-footer .box-head .underlined {
     margin-top: 15px;
 }
-
+.wp-footer .adjust-right{
+    margin-right: 20px;
+}
 .wp-footer .fas {
     margin-right: 10px;
 }
@@ -487,6 +587,19 @@
     list-style: none;
     text-align: left;
 }
+
+.wp-footer .social {
+    display: flex;
+}
+.wp-footer .social a {
+    display: block;
+    padding: 0 20px;
+    font-size: 24px;
+}
+.wp-footer .social .first-link {
+    padding-left: 0;
+}
+
 .wp-footer .intro-service .fas {
     margin-right: 5px;
 }
@@ -500,26 +613,64 @@
     text-decoration: none;
     color: #fff;
 }
+.wp-footer .intro-service a:hover {
+    color: #2A5DFC;
+}
+.wp-footer .cartifi {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
 
+.wp-footer .cartifi img {
+    width: calc(100% / 2 - 30px);
+    display: block;
+}
 
 /* ================================= */
 
 /* ==========SERVICE================= */
 
 /* ================================== */
-
-
-#wp-service .link{
+.index-service .wp-header {
+    background-image: url("../images/service_bg.png");
+}
+.index-service .dream-cover {
+    background: rgba(17, 17, 17, 0.9);
+}
+.index-service .bg-head-service {
+    background: linear-gradient(0deg, #0040C1 0%, #002173 100%);
+    opacity: 0.95;
+}
+.index-service .wp-content {
+    /* background-image: url("../images/bg_detail_service.png"); */
+    background-color: #f7faff;
+}
+.index-service .link{
     height: 28px;
-    -webkit-line-clamp: 1
+    -webkit-line-clamp: 1;
+    font-weight: 700;
+    text-align: center;
+}
+.index-service .title-intro {
+    margin-bottom: 46px;
+}
+.index-service .bottom-header {
+    padding: 70px 50px;
 }
 
-#wp-service .bottom-header {
-    padding: 80px 50px;
-}
-
-#wp-service .service {
+.index-service .service {
     padding-bottom: unset;
+}
+.index-service .underlined{
+    margin: 18px 0 32px 0;
+}
+.index-service .design-6 .box-body {
+    margin: 0;
+}
+.index-service .design-6 .img-post {
+    border-radius: 15px;
+    height: 280px;
 }
 
 .service {
@@ -557,4 +708,84 @@
     color: #2A5DFC;
     border: 1px solid #2A5DFC;
     margin-top: 30px;
+}
+
+
+/* ================================= */
+
+/* ==========DETAIL SERVICE================= */
+
+/* ================================== */
+
+.detail-service .design-2,  .detail-service .design-6 {
+    background: unset;
+    color: #333333;
+    padding-bottom: unset;
+}
+.detail-service .design-2 .item-left {
+    width: 68%;
+}
+.detail-service .design-2 .item-right {
+    width: 30%;
+}
+.detail-service .design-2 .box-body {
+    margin-bottom: 0;
+    font-size: 18px;
+}
+.detail-service .design-2 .title {
+    font-size: 32px;
+    font-weight: 700;
+}
+.detail-service .products {
+    background: unset;
+}
+.detail-service .item-box .title {
+    font-size: 32px;
+    color: #333333;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.detail-service .design-2 .underlined {
+    margin: 15px 0 0 0;
+    background-color: #333333;
+}
+.sub-menu-service {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.sub-menu-service .item-menu-service {
+    background-color: #fff;
+
+}
+.sub-menu-service .active {
+    border-radius: 20px 0 0 0;
+    background: #1D2849;
+}
+.sub-menu-service .active .link-menu-service{
+    font-size: 28px;
+    color: #fff;
+}
+.sub-menu-service .link-menu-service {
+    color: #333333;
+    font-size: 22px;
+    padding: 10px 25px;
+    text-decoration: none;
+    display: block;
+}
+.sub-menu-service .item-menu-service:hover .link-menu-service {
+    background-color: #2A5DFC;
+    color: #fff;
+}
+.sub-menu-service .active:hover .link-menu-service {
+    border-radius: 20px 0 0 0;
+    background: #1D2849;
+}
+
+.detail-service .products .item-box .box-head {
+    margin: 0;
+}
+
+.detail-service .design-4 .title {
+    color: #fff;
 }
